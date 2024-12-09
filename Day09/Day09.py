@@ -1,3 +1,9 @@
+'''
+Note that I had to take inspiration from other users on the char to use for the free char
+cause apparently a bad choice would mess up the checksum result, therefore the kinda weird 
+choice of the free char :).
+'''
+
 
 file_path = "Your file path"
 
