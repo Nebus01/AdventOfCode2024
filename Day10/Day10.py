@@ -1,7 +1,7 @@
 
 file_path = "Your file path"
 
-with open(file_path, 'r') as file:
+with open(file_path, "r") as file:
     topographic_map = [list(map(int, line.strip())) for line in file.readlines()]
 
 

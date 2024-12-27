@@ -1,7 +1,7 @@
 
 input_file = "Your file path"
 
-with open(input_file, 'r') as f:
+with open(input_file, "r") as f:
     grid = [list(line.strip()) for line in f.readlines()]
 
 #PART1:

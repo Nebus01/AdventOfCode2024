@@ -5,7 +5,7 @@ input_file = "Your file path"
 
 claw_machines = []
 
-with open(input_file, 'r') as file:
+with open(input_file, "r") as file:
     blocks = file.read().strip().split('\n\n')
     for block in blocks:
         lines = block.split('\n')

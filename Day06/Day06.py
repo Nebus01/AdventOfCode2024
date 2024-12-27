@@ -4,7 +4,7 @@ start_time = time.time()
 
 file_path = "Your file path"
 
-with open(file_path, 'r') as file:
+with open(file_path, "r") as file:
     map_data = file.read()
 
 rows = map_data.strip().split('\n')

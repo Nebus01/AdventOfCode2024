@@ -6,7 +6,7 @@ file_path = "Your file path"
 #Input string
 input_string = ""
     
-with open(file_path,'r') as file:
+with open(file_path,"r") as file:
 	input_string = " ".join(line.rstrip() for line in file)
 
 #Regex patterns

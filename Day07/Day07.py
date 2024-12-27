@@ -29,7 +29,7 @@ def calculate_results(lines, allow_concatenation=False):
 
 file_path = "Your file path"
 
-with open(file_path, 'r') as file:
+with open(file_path, "r") as file:
     lines = [line.strip() for line in file if line.strip()]
 
 #PART1:
